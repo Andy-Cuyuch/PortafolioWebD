@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {StyleClassModule} from 'primeng/styleclass';
-
-
 
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
+import {StyleClassModule} from 'primeng/styleclass';
+
+/*Componentes*/
 import { ContentComponent } from './component/content/content.component';
 import { ContactComponent } from './component/contact/contact.component';
+import { DatosGeneralesComponent } from './component/datos-generales/datos-generales.component';
+import { InformacionComponent } from './component/informacion/informacion.component';
+import { ProyectosComponent } from './component/proyectos/proyectos.component';
+import { MainComponent } from './component/main/main.component';
 
 
 
@@ -18,7 +21,11 @@ import { ContactComponent } from './component/contact/contact.component';
   declarations: [
     AppComponent,
     ContentComponent,
-    ContactComponent
+    ContactComponent,
+    DatosGeneralesComponent,
+    InformacionComponent,
+    ProyectosComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
